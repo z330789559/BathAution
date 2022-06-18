@@ -2,3 +2,5 @@
 coverage
 coverage.json
 coverageEnv
+node_module
+yarn.lock
