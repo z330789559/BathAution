@@ -248,7 +248,7 @@ contract NFTAuction is IERC1155Receiver, IERC721Receiver, ERC165 {
         }
     }
 
-    function remove(address el) public {
+    function remove(address el) internal {
         uint256 index;
         for (index = 0; index < currentActions.length; index++) {
             if (currentActions[index] == el) {

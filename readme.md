@@ -1,19 +1,25 @@
-## 安装依赖
+## install dependency
  >npm install 
- ## 全局安装 truffle 
+ ## install truffle 
  >npm install -g truffle
- ## 运行开发环境
+ ## run develop environment
   > truffle develop
 
   > compile 
 
   > test
 
-  测试全覆盖， 核心功能对应测试用例
+ test coverage main function
+ 
 
-  ### 功能特点
-  1. 兼容721 和1155
-  2. 批量数组查询
-  ### 优化
-   目前查询 拍卖具体的人员和出价还需要动态数组，后续把 struct 里面的mapping都放到外面
-   部分逆向流程未来得及测试
+  ### function feature
+  1. Compatible with 721 and 1155
+  2. batch array query
+  ### optimization
+  At present, a dynamic array is required to query the specific personnel and bids of the auction, and then the mapping in the struct will be put outside
+   Part of the reverse process will be tested in the future
+
+goerli address
+1155:  0xEe9a5938a7aa0184469Ab778EE5BFa6B431fEcE2
+NFTaution: 0x992623e25f6A3CE32ac78f930fC7B358c7Da2Fdd
+account-private key: f7cb6dbb8148c2a5d7ad2e514416258bdef3e3337093e98068cb24bb1ce6faee
